@@ -9,7 +9,7 @@ const About = () => {
   return (
     <motion.section
       ref={ref}
-      className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
+      className="mb-20 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 1 }}
       transition={{ delay: 0.2 }}
@@ -36,11 +36,8 @@ const About = () => {
 
       <p>
         <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        games, bike riding and Trekking. I also enjoy{" "}
+        <span className="font-medium">learning new things</span>.
       </p>
     </motion.section>
   );
