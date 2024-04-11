@@ -29,8 +29,8 @@ const Intro = () => {
             <Image
               src="/ProfilePhoto.jpg"
               alt="Pranav Patil"
-              width="400"
-              height="400"
+              width="192"
+              height="192"
               quality="95"
               priority={true}
               //to load image faster
